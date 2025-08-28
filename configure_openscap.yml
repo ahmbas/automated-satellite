@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ dynamic_inventory_group | default(omit) }}"
+- hosts: all
   become: true
   strategy: free
   gather_facts: true
