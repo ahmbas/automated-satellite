@@ -1,6 +1,7 @@
 ---
 collections:
-- name: git+https://github.com/morenod/ansible-role-scap-client.git
+- source: git+https://github.com/morenod/ansible-role-scap-client.git
+  name: scap_client
   type: git
   version: master
 - name: fedora.linux_system_roles
