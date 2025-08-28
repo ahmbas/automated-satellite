@@ -1,7 +1,8 @@
 ---
 collections:
-- name: https://github.com/morenod/ansible-role-scap-client.git
+- name: git+https://github.com/morenod/ansible-role-scap-client.git
   type: git
+  version: master
 - name: fedora.linux_system_roles
   version: ">=1.21.0" # Version range identifiers (default: ``*``)
   source: https://galaxy.ansible.com # The Galaxy URL to pull the collection from (default: ``--api-server`` from cmdline)
