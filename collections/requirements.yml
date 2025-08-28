@@ -1,9 +1,10 @@
 ---
+roles:
+ - src: https://github.com/morenod/ansible-role-scap-client.git
+   scm: git
+   version: main # or a specific tag/commit hash, e.g., '1.0.0' or 'abcdef12345'
+   name: scap_client # Optional: specify a custom name
 collections:
-- source: git+https://github.com/morenod/ansible-role-scap-client.git
-  name: scap_client
-  type: git
-  version: master
 - name: fedora.linux_system_roles
   version: ">=1.21.0" # Version range identifiers (default: ``*``)
   source: https://galaxy.ansible.com # The Galaxy URL to pull the collection from (default: ``--api-server`` from cmdline)
