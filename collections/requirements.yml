@@ -2,7 +2,7 @@
 roles:
  - src: https://github.com/morenod/ansible-role-scap-client.git
    scm: git
-   version: main # or a specific tag/commit hash, e.g., '1.0.0' or 'abcdef12345'
+   version: master # or a specific tag/commit hash, e.g., '1.0.0' or 'abcdef12345'
    name: scap_client # Optional: specify a custom name
 collections:
 - name: fedora.linux_system_roles
