@@ -28,7 +28,7 @@
 
 
 - name: Ansible Playbook for xccdf_org.ssgproject.content_profile_cis_server_l1
-  hosts: localhost
+  hosts: all
   vars:
     var_system_crypto_policy: !!str DEFAULT
     inactivity_timeout_value: !!str 900
